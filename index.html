@@ -1,0 +1,1525 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> L.D. College of Engineering</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- <meta content="" name="keywords">
+    <meta content="" name="description"> -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+        }
+        @keyframes slideInUp
+        {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .card__counts {
+            padding: 13px 0 20px;
+            margin-bottom: 37px;
+            min-height: 110px;
+        }
+        .card__table {
+    display: table;
+    width: 100%;
+}
+.card__tablecell:first-child {
+    width: 92px;
+}
+
+.card__tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.sprite {
+    background: url('img/sprite.png') no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+}
+.icon__ug {
+    background-position: -84px -204px;
+    width: 72px;
+    height: 72px;
+}
+.icon__pg {
+    background-position: -205px -204px;
+    width: 72px;
+    height: 72px;
+}
+.card__userdetails h4, .card__userdetails h3 {
+    font: 4em / 1;
+    color: #fff;
+    margin: 0;
+}
+.card__userdetails p {
+    margin: 0 35px 0 0;
+}
+.card__userdetails p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin: 0;
+}
+.icon__globalworld {
+    background-position: -1045px -445px;
+    width: 72px;
+    height: 72px;
+}
+.icon__rs {
+    background-position: -325px -204px;
+    width: 72px;
+    height: 72px;
+}
+.icon__faculty {
+    background-position: -444px -204px;
+    width: 72px;
+    height: 72px;
+}
+.icon__staff {
+    background-position: -565px -204px;
+    width: 72px;
+    height: 72px;
+}
+.icon__patents {
+    background-position: -684px -204px;
+    width: 72px;
+    height: 72px;
+}
+.icon__investment {
+    background-position: -924px -445px;
+    width: 72px;
+    height: 72px;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <!-- <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a> -->
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a href="#"><small class="me-3 text-light"></small></a>
+                    <a href="#"><small class="me-3 text-light">GRIEVANCE</small></a>
+                    <a href="#"><small class="me-3 text-light">SITEMAP</small></a>
+                    <a href="#"><small class="me-3 text-light">STUDENT SECTION</small></a>
+                    <a href="#"><small class="me-3 text-light">CONTACT</small></a>
+
+                    <!-- <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i class="fa fa-home me-2"></i> My Dashboard</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                            </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6" style="width: auto;">
+                        <img src="img/ldce-logo.png" alt="Logo">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4><i class=""></i>L.D. College of Engineering</h4>
+                    </div>
+                </div>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Acedemics</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="" class="dropdown-item">BE Admission & Courses</a>
+                            <a href="" class="dropdown-item">PDDC Courses</a>
+                            <a href="" class="dropdown-item">PG Admission Courses</a>
+
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="" class="dropdown-item">BE Admission & Courses</a>
+                            <a href="" class="dropdown-item">PDDC Courses</a>
+                            <a href="" class="dropdown-item">PG Admission Courses</a>
+
+                        </div>
+                    </div>
+
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="./departments.html" class="nav-item nav-link">Departments</a>
+                    <a href="#" class="nav-item nav-link">Campus Life</a>
+                    <a href="#" class="nav-item nav-link">Placements</a>
+                    <a href="#" class="nav-item nav-link">More</a>
+
+                    <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                           
+                       
+                            <div class="dropdown-menu m-0">
+                                <a href="destination.html" class="dropdown-item">Destination</a>
+                                <a href="tour.html" class="dropdown-item">Explore Tour</a>
+                                <a href="booking.html" class="dropdown-item">Travel Booking</a>
+                                <a href="gallery.html" class="dropdown-item">Our Gallery</a>
+                                <a href="guides.html" class="dropdown-item">Travel Guides</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        -->
+
+                </div>
+                <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a> -->
+            </div>
+        </nav>
+        <!-- Carousel Start -->
+        <div class="carousel-header">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/LDCE3.png" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"></h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">SAFEGUARD YOUR FUTURE</h1>
+                                <p class="mb-5 fs-5">L.D.C.E has been providing the world with proficient engineers
+                                    since 1952.
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#explorenow">Explore Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/background-parallax.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"></h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">SAFEGUARD YOUR FUTURE</h1>
+                                <p class="mb-5 fs-5">L.D.C.E has been providing the world with proficient engineers
+                                    since 1952.
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#explorenow">Explore Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/herobg.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"></h4>
+                                <h1 class="display-2 text-capitalize text-white mb-4">SAFEGUARD YOUR FUTURE</h1>
+                                <p class="mb-5 fs-5">L.D.C.E has been providing the world with proficient engineers
+                                    since 1952.
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#explorenow">Explore Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+    </div>
+    <div class="about-area pb-75" style="padding-top: 70px;">
+        <div class="container">
+            <div class="row align-items-center" data-disabled="true">
+                <div class="col-lg-6" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="about-image">
+                        <img src="img/LDCE3.png" alt="about-image" style="max-width: 100%;height: auto;">
+                    </div>
+                </div>
+                <div class="col-lg-6" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="about-content" style="margin-left: 70px;
+                    margin-bottom: 25px;
+                    margin-right: -10px;">
+                        <div class="title" style="margin-bottom: 30px;">
+                            <h2 class="d-flex align-items-center" style="font-size: 42px;line-height: 0;margin-bottom: 30px;color: rgb(0, 30, 67);">
+                                <img src="img/title-shape.svg" alt="title-shape">
+                                About LDCE College
+                            </h2>
+                            <p style="line-height: 2rem;">L. D. College of Engineering endearingly known as L.D.C.E is Ahmedabad’s premier engineering college situated at the city’s heart and surrounded by elite organization like PRL, ATIRA, ISRO, IIM and CEPT. Starting in 1948 to impart quality higher education in various fields of engineering, it has seen unprecedented growth. It is affiliated with Gujarat Technological University & administrated by Department of Technical Education, Government of Gujarat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- academics Start -->
+    <div class="container-fluid bg-light service py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">ACADEMICS
+                </h5>
+                <h1 class="mb-0">ACADEMIC UNITS</h1>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-4 col-md-4 col-sm-4">
+                    <div
+                        class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+                        <div class="service-content text-end">
+                            <h1 class="mb-4">Center of Excellence</h1>
+                            <!-- <p class="mb-0">The LDCE (L. D. College of Engineering) Center of Excellence is a distinguished initiative aimed at fostering
+                            innovation, research, and advanced learning within the engineering domain. Established to enhance the academic and
+                            professional capabilities of students and faculty, the center serves as a hub for cutting-edge technological
+                            advancements and interdisciplinary collaboration.
+                            </p> -->
+                        </div>
+                        <div class="service-icon p-4">
+                            <i class="fa fa-globe fa-4x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-md-4 col-sm-4">
+                    <div
+                        class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0">
+                        <div class="service-content text-end">
+                            <h1 class="mb-4">Innovation</h1>
+                 <!--            <p class="mb-0">Impact and Achievements
+                            Innovative Projects: Numerous innovative projects have emerged from the center, many of which have garnered recognition
+                            at national and international levels.
+                            
+                            Start-up Incubation: The center supports budding entrepreneurs by providing the necessary resources and mentorship to
+                            transform their ideas into successful start-ups.
+                            
+                        
+
+                            </p> -->
+                        </div>
+                        <div class="service-icon p-4">
+                            <i class="fa fa-hotel fa-4x text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-md-4 col-sm-4">
+
+                    <div
+                        class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0">
+
+                        <div class="service-content text-end">
+                            <h1 class="mb-4">Achievements</h1>
+                            
+                            <!-- <p class="mb-0">Facilities and Resources
+                            State-of-the-art Laboratories: Equipped with the latest technology and tools, the laboratories provide a conducive
+                            environment for research and development activities.
+                            Start-up Incubation: The center supports budding entrepreneurs by providing the necessary resources and mentorship to
+                            transform their ideas into successful start-ups.
+                            
+                            </p> -->
+                        </div>
+                        <div class="service-icon p-4">
+                            <i class="fa fa-user fa-4x text-primary"></i>
+                        </div>
+                        <div >
+                            <br><br><br><br>
+                        </div>    
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- <div class="col-12">
+                    <div class="text-center">
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Service More</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- academics End -->
+    <!-- Gallery Start -->
+    <div class="container-fluid gallery py-5">
+        <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+            <h5 class="section-title px-3">CAMPUS</h5>
+            <h1 class="mb-4">LDCE CAMPUS LIFE</h1>
+            <p class="mb-0">LDCE HAS A VIBRANT CAMPUS
+            </p>
+        </div>
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill"
+                        href="#GalleryTab-1">
+                        <span class="text-dark" style="width: 150px;">All</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                        href="#GalleryTab-2">
+                        <span class="text-dark" style="width: 150px;">Departments</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                        href="#GalleryTab-3">
+                        <span class="text-dark" style="width: 150px;">Sports</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                        href="#GalleryTab-4">
+                        <span class="text-dark" style="width: 150px;">Cultural Events</span>
+                    </a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/20231218_163919.jpg"
+                                    class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20231218_165208.jpg" data-lightbox="gallery-1" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/20231218_175604.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20231231_165956.jpg" data-lightbox="gallery-2" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240221_152736.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240221_160831.jpg" data-lightbox="gallery-3" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240224_174428.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240227_081206 (1).jpg" data-lightbox="gallery-4" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240229_123852.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240309_184021.jpg" data-lightbox="gallery-5" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/PSX_20240107_072040.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/PSX_20240211_183740.jpg" data-lightbox="gallery-6" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/PSX_20240211_183740.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/PSX_20240211_184450.jpg" data-lightbox="gallery-7" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/PSX_20240211_214212.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/PSX_20240223_195433.jpg" data-lightbox="gallery-8" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240325_181525.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240405_180307.jpg" data-lightbox="gallery-9" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240405_182223.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240405_184526.jpg" data-lightbox="gallery-10" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GalleryTab-3" class="tab-pane fade show p-0">
+                    <div class="row g-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240420_180452.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/PSX_20240223_195433.jpg" data-lightbox="gallery-2" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/about-img-1.png" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">Vibrant Photo Gallaty Of LDCE <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240309_184021.jpg" data-lightbox="gallery-3" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GalleryTab-2" class="tab-pane fade show p-0">
+                    <div class="row g-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/computer_department.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">Computer Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/electrical.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">Electrical Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/mechanical.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">Mechanical Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/civil.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">Civil Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/IT.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">IT Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/automobile.jpeg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">Automobile Engineering</h5>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GalleryTab-4" class="tab-pane fade show p-0">
+                    <div class="row g-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240229_123852.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240326_190157 (1).jpg" data-lightbox="gallery-2" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/20240405_180307.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/20240405_183147.jpg" data-lightbox="gallery-3" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="GalleryTab-5" class="tab-pane fade show p-0">
+                    <div class="row g-2">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <div class="gallery-item h-100">
+                                <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                            <div class="gallery-item h-100">
+                                <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                <div class="gallery-content">
+                                    <div class="gallery-info">
+                                        <h5 class="text-white text-uppercase mb-2">LDCE Campus</h5>
+                                        <a href="#" class="btn-hover text-white">View All Place <i
+                                                class="fa fa-arrow-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                                <div class="gallery-plus-icon">
+                                    <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i
+                                            class="fas fa-plus fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+    <!-- NEWS Start -->
+    <div class="container-fluid packages py-5 pt-0">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">NEWS</h5>
+                <h1 class="mb-0">LATEST NEWS</h1>
+            </div>
+            <div class="packages-carousel owl-carousel">
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/news.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-map-marker-alt me-2"></i>LDCE </small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-calendar-alt me-2"></i>16 DEC 2023</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-eye me-2"></i>2k Views</small>
+                        </div>
+
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+
+
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia
+                                quae illum aperiam fugiat voluptatem repellat</p>
+                        </div>
+                        <div class="row bg-primary rounded-bottom mx-0">
+                            <div class="col-6 text-start px-0">
+                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                            </div>
+                            <div class="col-6 text-end px-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/news.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-map-marker-alt me-2"></i>LDCE</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-calendar-alt me-2"></i>16 DEC 2023</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-eye me-2"></i>3.4k Views</small>
+                        </div>
+
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+
+
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia
+                                quae illum aperiam fugiat voluptatem repellat</p>
+                        </div>
+                        <div class="row bg-primary rounded-bottom mx-0">
+                            <div class="col-6 text-start px-0">
+                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                            </div>
+                            <div class="col-6 text-end px-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/news.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-map-marker-alt me-2"></i>LDCE</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-calendar-alt me-2"></i>16 DEC 2023</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-eye me-2"></i>1.4k Views</small>
+                        </div>
+
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+
+
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia
+                                quae illum aperiam fugiat voluptatem repellat</p>
+                        </div>
+                        <div class="row bg-primary rounded-bottom mx-0">
+                            <div class="col-6 text-start px-0">
+                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                            </div>
+                            <div class="col-6 text-end px-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-item">
+                    <div class="packages-img">
+                        <img src="img/news.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+                        <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute"
+                            style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-map-marker-alt me-2"></i>LDCE</small>
+                            <small class="flex-fill text-center border-end py-2"><i
+                                    class="fa fa-calendar-alt me-2"></i>16 DEC 2023</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-eye me-2"></i>5.5k Views</small>
+                        </div>
+
+                    </div>
+                    <div class="packages-content bg-light">
+                        <div class="p-4 pb-0">
+
+
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt nemo quia
+                                quae illum aperiam fugiat voluptatem repellat</p>
+                        </div>
+                        <div class="row bg-primary rounded-bottom mx-0">
+                            <div class="col-6 text-start px-0">
+                                <a href="#" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                            </div>
+                            <div class="col-6 text-end px-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NEWS End -->
+
+    <!-- EVENTS Start -->
+    <!-- <div class="container-fluid blog py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">EVENTS</h5>
+                <h1 class="mb-4">Popular Events</h1>
+                 <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt tenetur sapiente atque. Magni non explicabo beatae sit, vel reiciendis consectetur numquam id similique sunt error obcaecati ducimus officia maiores.
+            </p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <div class="blog-img-inner">
+                                <img class="img-fluid w-100 rounded-top" src="img/EVENT-IMG.jpg" alt="Image">
+                                <div class="blog-icon">
+                                    <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
+                                <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i
+                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
+                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
+                                        class="fa fa-comments text-primary me-2"></i>1K</a>
+                            </div>
+                        </div>
+                        <div class="blog-content border border-top-0 rounded-bottom p-4">
+                            <p class="mb-3"></p>
+                            <a href="#" class="h4">Adventures Trip</a>
+                            <p class="my-3">Inauguration of upgraded
+                                Library Facilities on 15
+                                December 2023</p>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <div class="blog-img-inner">
+                                <img class="img-fluid w-100 rounded-top" src="img/EVENT-IMG.jpg" alt="Image">
+                                <div class="blog-icon">
+                                    <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
+                                <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i
+                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
+                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
+                                        class="fa fa-comments text-primary me-2"></i>1K</a>
+                            </div>
+                        </div>
+                        <div class="blog-content border border-top-0 rounded-bottom p-4">
+                            <p class="mb-3"></p>
+                            <a href="#" class="h4">Adventures Trip</a>
+                            <p class="my-3"></a>
+                            <p class="my-3">Inauguration of upgraded
+                                Library Facilities on 15
+                                December 2023</p>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <div class="blog-img-inner">
+                                <img class="img-fluid w-100 rounded-top" src="img/EVENT-IMG.jpg" alt="Image">
+                                <div class="blog-icon">
+                                    <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                </div>
+                            </div>
+                            <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
+                                <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i
+                                        class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
+                                <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i
+                                        class="fa fa-comments text-primary me-2"></i>1K</a>
+                            </div>
+                        </div>
+                        <div class="blog-content border border-top-0 rounded-bottom p-4">
+                            <p class="mb-3"></p>
+                            <a href="#" class="h4">Adventures Trip</a>
+                            <p class="my-3"></a>
+                            <p class="my-3">Inauguration of upgraded
+                                Library Facilities on 15
+                                December 2023</p>
+                            <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- EVENTS End -->
+    <div class="container-fluid causes py-5 pt-0">
+        <div class="container py-5">
+          <div class="text-center mx-auto pb-5" style="max-width: 800px">
+            <h5 class="text-uppercase text-primary">What we are proud of !</h5>
+            <h1 class="mb-4">Achievements</h1>
+            <p class="mb-0">
+              We are proud of the students who are working hard to make a difference
+            </p>
+          </div>
+          <div class="row g-4 owl-carousel">
+            <div class="col-lg-6 col-xl-3">
+              <div class="causes-item">
+                <div class="causes-img">
+                  <img
+                    src="https://ldce.ac.in/images/thumb/achievements/2024/ldce-nss-unit-awarded-as-best-nss-unit-and-prof-c-s-sanghvi-as-best-program-officer-of-gtu-for-the-year-2021-22.jpeg"
+                    class="img-fluid w-100" alt="Image" />
+                </div>
+    
+                <div class="causes-content p-4">
+                  <h4 class="mb-3">First environments activity of</h4>
+                  <p class="mb-4">
+                    Help today because tomorrow you may be the one who needs more
+                    helping!
+                  </p>
+                  <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3">
+              <div class="causes-item">
+                <div class="causes-img">
+                  <img
+                    src="https://ldce.ac.in/images/thumb/achievements/2024/ldce-shines-at-the-national-level-design-competition-for-steel-intensive-trade-fair-centre.jpeg"
+                    class="img-fluid w-100" alt="Image" />
+    
+    
+                </div>
+    
+                <div class="causes-content p-4">
+                  <h4 class="mb-3">Build school for poor children.</h4>
+                  <p class="mb-4">
+                    Help today because tomorrow you may be the one who needs more
+                    helping!
+                  </p>
+                  <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3">
+              <div class="causes-item">
+                <div class="causes-img">
+                  <img
+                    src="https://ldce.ac.in/images/thumb/achievements/2024/congratulations-to-tanay-gajjar-and-prof-a-g-momin-for-securing-patent-on-design-of-split-rivet-press.png"
+                    class="img-fluid w-100" alt="Image" />
+                </div>
+                <div class="causes-content p-4">
+                  <h4 class="mb-3">
+                    Building clean-water system for rural poor.
+                  </h4>
+                  <p class="mb-4">
+                    Help today because tomorrow you may be the one who needs more
+                    helping!
+                  </p>
+                  <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3">
+              <div class="causes-item">
+                <div class="causes-img">
+                  <img src="https://ldce.ac.in/images/thumb/achievements/2024/two-be-programs-ic-and-chemical-engineering-received-nba-re-accreditation-for-the-three-yearsjune-2027.jpeg" class="img-fluid w-100" alt="Image" />
+    
+                  
+                </div>
+                
+                
+                <div class="causes-content p-4">
+                  <h4 class="mb-3">
+                    First environments activity of this summer.
+                  </h4>
+                  <p class="mb-4">
+                    Help today because tomorrow you may be the one who needs more
+                    helping!
+                  </p>
+                  <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid causes py-5 pt-0">
+        <section class="card clearfix" style="background-image: url('img/LDCE3.png');padding: 50px 0 0;background-position: center;background-repeat: no-repeat;background-size: cover;background-blend-mode:  darken, luminosity;">
+            <div class="container">
+                <h2 class="" style="color: #fff !important;font: 3.5em / 1;color: #000;margin: 0 0 33px;padding-left: 20px;position: relative;">LDCE by the Numbers</h2>
+                <div class="row">
+                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__ug"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="50000">0</h3>
+                                        <p class="font__fontrols__style">Undergraduate Students</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__pg"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="1000">0</h3>
+                                        <p class="font__fontrols__style">Postgraduate Students</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                               <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__globalworld"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="1000">0</h3>
+                                        <p class="font__fontrols__style">ME Research Scholars</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__rs"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="15">0</h3>
+                                        <p class="font__fontrols__style">PhD Research Scholars</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__faculty"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="280">0</h3>
+                                        <p class="font__fontrols__style">Faculty</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__staff"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="150">0</h3>
+                                        <p class="font__fontrols__style">Staff</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__patents"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="20">0</h3>
+                                        <p class="font__fontrols__style">Patents</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                        <div class="col-xs-6 col-md-3 col-sm-4">
+                        <div class="card__counts">
+                            <div class="card__table">
+                                <div class="card__tablecell hidden-xs">
+                                    <span class="sprite icon__investment"></span>
+                                </div>
+                                <div class="card__tablecell">
+                                    <div class="card__userdetails">
+                                        <h3 class="count" data-count="100">0</h3>
+                                        <p class="font__fontrols__style">Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid donation py-5">
+        <div class="container py-5">
+          <div class="text-center mx-auto pb-5 centerln" style="max-width: 800px">
+            <hr />
+            <h1 class="mb-0 text">EVENT CALENDER</h1>
+            <hr />
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="donation-item">
+                <img src="https://blobimageshikshafinder.blob.core.windows.net/shikshafinder/get%20(3).jpeg"
+                  class="img-fluid w-100 event-img" alt="Image" />
+                <div class="donation-content d-flex flex-column">
+                  <a href="#" class="btn-hover-color display-6 text-white text-primary">SSIP</a>
+                  <h4 class="text-white mb-4">31 AUG 2022</h4>
+                  <p class="text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <div class="donation-btn d-flex align-items-center justify-content-start">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="donation-item">
+                <img src="https://blobimageshikshafinder.blob.core.windows.net/shikshafinder/get%20(4).jpeg"
+                  class="img-fluid w-100 event-img" alt="Image" />
+                <div class="donation-content d-flex flex-column">
+                  <a href="#" class="btn-hover-color display-6 text-white">Skill India</a>
+                  <h4 class="text-white mb-4">22 May 2023</h4>
+                  <p class="text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <div class="donation-btn d-flex align-items-center justify-content-start">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="donation-item">
+                <img src="https://blobimageshikshafinder.blob.core.windows.net/shikshafinder/get%20(1).jpeg"
+                  class="img-fluid w-100 event-img" alt="Image" />
+                <div class="donation-content d-flex flex-column">
+                  <a href="#" class="btn-hover-color display-6 text-white">Vibrant Gujarat Summit</a>
+                  <h4 class="text-white mb-4">22th JAN 2024</h4>
+                  <p class="text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <div class="donation-btn d-flex align-items-center justify-content-start">
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4 btn-color" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex align-items-center justify-content-center">
+                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">All EVENTS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Subscribe Start -->
+    <div class="container-fluid subscribe py-5">
+        <div class="container text-center py-5">
+            <div class="mx-auto text-center" style="max-width: 900px;">
+                <!-- <h5 class="subscribe-title px-3">PLACEMENTS</h5> -->
+                <h1 class="text-white mb-4">PLACEMENTS</h1>
+                <!-- <h1 class="text-white mb-3">PLACEMENTS</h1> -->
+                <p class="text-white mb-4">→ Placement Cell Brochure</p>
+                <p class="text-white mb-4">→ Placement Cell Activities</p>
+                <p class="text-white mb-4">→ Facilities For Placement Drive at LDCE</p>
+                <!-- <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam,
+                architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium
+                fugiat corrupti eum cum repellat a laborum quasi.
+            </p> -->
+                <!-- <div class="position-relative mx-auto">
+                <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                    placeholder="Your email">
+                <button type="button"
+                    class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+            </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <!-- <h4 class="mb-4 text-white">Get In Touch</h4> -->
+                        <img src="img/ldce-logo.png" width="40%" alt="Logo">
+
+                        <a href=""><i class=""></i> L.D. College of Engineering Opp Gujarat University, Navrangpura,
+                            Ahmedabad - 380015. GUJARAT INDIA</a>
+                        <!-- <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a> -->
+                        <div class="d-flex align-items-center">
+                            <!-- <i class="fas fa-share fa-2x text-white me-2"></i> -->
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">About</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> History</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> ADMISSION PROCEDURE</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> DIRECTIONS</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> FEES & DESCRIPTION</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> COMMITIES</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> CAMPUS MAP</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i>USEFUL LINKS</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> HDFC ONLINE PAYMENT</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> STUDENT INDUCTION</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> PROGRAM</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Important Info</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> RIGHT TO INFO. ACT</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> MOU</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> TEQIP</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> MANDATORY DISCLOSURE</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> TENDER NOTICE</a>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <div class="row gy-3 gx-2 mb-4">
+                            <div class="col-xl-6">
+                                <form>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-dark border" id="select1">
+                                            <option value="1">Arabic</option>
+                                            <option value="2">German</option>
+                                            <option value="3">Greek</option>
+                                            <option value="3">New York</option>
+                                        </select>
+                                        <label for="select1">English</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xl-6">
+                                <form>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-dark border" id="select1">
+                                            <option value="1">USD</option>
+                                            <option value="2">EUR</option>
+                                            <option value="3">INR</option>
+                                            <option value="3">GBP</option>
+                                        </select>
+                                        <label for="select1">$</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <h4 class="text-white mb-3">Payments</h4>
+                        <div class="footer-bank-card">
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <!-- <div class="container-fluid copyright text-body py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-end mb-md-0">
+                    <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Your Site Name</a>, All right
+                    reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-start"> -->
+    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+    <!-- Designed By <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
+                        href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> -->
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const counters = document.querySelectorAll('.count');
+            const speed = 300; // Adjust the speed of the counter
+
+            const counterObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = entry.target;
+                        const updateCount = () => {
+                            const targetCount = +target.getAttribute('data-count');
+                            const currentCount = +target.innerText;
+
+                            const increment = targetCount / speed;
+
+                            if (currentCount < targetCount) {
+                                target.innerText = Math.ceil(currentCount + increment);
+                                setTimeout(updateCount, 1);
+                            } else {
+                                target.innerText = targetCount;
+                            }
+                        };
+
+                        updateCount();
+                        observer.unobserve(target); // Stop observing once the count animation is done
+                    }
+                });
+            }, {
+                threshold: 0.1 // Adjust this value to control when the animation should start
+            });
+
+            counters.forEach(counter => {
+                counterObserver.observe(counter);
+            });
+        });
+    </script>
+</body>
+
+</html>
